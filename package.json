@@ -1,0 +1,32 @@
+{
+  "name": "web-starter-kit",
+  "version": "1.0.0",
+  "description": "Barebones dev server with SASS compiling support",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/8thlight/web-starter-kit.git"
+  },
+  "author": "8th Light",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-security": "^1.4.0",
+    "parcel": "^1.12.4",
+    "postcss-modules": "^4.0.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.30.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2"
+  }
+}
